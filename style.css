@@ -1,0 +1,107 @@
+/* Variables */
+:root {
+  --font-sora: 'Sora', sans-serif;
+  --font-size-title: 1.125rem;
+  --font-size-body: 0.875rem;
+  --font-size-small: 0.75rem;
+  --font-size-tag: 0.625rem;
+
+  --color-blue-violet: #883ae1;
+  --color-pale-lavender: #e6d6fc;
+  --color-brigh-gray: #f0ebe5;
+  --color-lotion: #fafaf9;
+  --color-white: #fff;
+  --color-yankeesBlue: #20293a;
+  --color-awuroMetalSaurus: #7f796c;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--color-lotion);
+  font-family: var(--font-sora);
+  font-optical-sizing: auto;
+}
+
+/* Card Styles */
+#card {
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 5px -3px 14px -5px rgba(229, 234, 240, 1);
+  background-color: var(--color-white);
+}
+
+/* Image Container Styles */
+.container_img {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin: 15px auto;
+}
+
+.container_img img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Tag Styles */
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 70px;
+  padding: 6px;
+  margin-left: 15px;
+  background-color: var(--color-pale-lavender);
+}
+.tag p {
+  margin: 0;
+  padding: 0;
+  color: var(--color-blue-violet);
+  font-size: var(--font-size-tag);
+  font-weight: 500;
+}
+
+/* Content Styles */
+.container_content {
+  margin-left: 10px;
+  color: var(--color-yankees-blue);
+}
+.container_content h2 {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font-size: var(--font-size-title);
+  font-weight: 500;
+}
+.container_content p {
+  margin: 5px;
+  font-size: var(--font-size-body);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+/* Divider Styles */
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: var(--color-pale-lavender);
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-size: var(--font-size-small);
+  font-weight: 200;
+  color: var(--color-yankees-blue);
+}
